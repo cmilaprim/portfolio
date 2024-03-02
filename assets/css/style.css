@@ -1,0 +1,134 @@
+@import url('reset.css');
+
+* {
+    background: black;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    margin: auto;
+
+}
+
+body{
+    box-sizing: border-box;
+}
+
+/* ---- cabeçalho  ---- */
+.cabecalho{
+    padding: 2% 10%;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+}
+
+.menu-link{
+    color: #518f05;
+    font-size: 1.25em;
+    font-weight: bolder;
+    padding-bottom: 3.5rem;
+
+}
+.menu-link-sobremim{
+    color: #518f05;
+    font-size: 1.25em;
+    font-weight: bolder;
+    padding-bottom: 0rem;
+
+}
+
+
+/*----- apresentação ----*/
+
+h1 code{
+    color:#518f05
+}
+
+.apresentacao {
+    padding: 5% 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: rem;
+}
+
+.apresentacao-conteudo {
+    width: 800px;
+    font-weight: normal ;
+    display: flex;
+    flex-direction: column;
+    gap: 1.75rem;
+    padding-bottom: 9rem;
+
+
+}
+
+h1{
+    font-size: 60px;
+}
+
+.apresentacao-conteudo p{
+    font-size: 1.55rem;
+
+}
+
+.apresentacao-conteudo-aboutme p{
+    font-size: 1.25rem
+}
+
+/* ---- link ----*/
+
+.apresentacao-link-subtitulo {
+    font-weight: 400;
+}
+
+
+.apresentacao-links{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    
+}
+
+.apresentacao-links-sociais{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    border: 2px solid #518f05;
+    width: 200px;
+    text-align: center;
+    border-radius: 0.5rem;
+    padding: 1rem 0;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* ---- imagens ---- */
+
+.imagem-link{
+    width: 15px;
+    margin: 0px;
+    padding: 0%;
+}
+
+.imagem{
+    border-radius: 5px;
+    box-shadow: 15px -15px 0px -5px #000000, 15px -15px 0px -2px #518f05;
+    padding: 10px;
+    width: 40rem;
+}
+
+
+/* ---- rodape ---- */
+
+footer p {
+    background:#518f05;
+    padding: 0.5em;
+    font-size: 1.25rem;
+    font-weight: bold;
+    text-align: center;
+}
